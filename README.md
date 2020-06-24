@@ -25,6 +25,8 @@ Open the `index.html` file in your browser and check the console in Chrome Dev T
 Figure out what you need to change to give Javascript access to the `h1#header` element.
 
 **YOUR NOTES**
+document.querySelector() behaves similarly to the jQuery.(document).ready() method. When the DOM is ready, the selector returns the object.
+call our js in the bottom of the page
 ```
 
 ```
@@ -35,7 +37,7 @@ Now that you have access to the `h1#header` element, use Javascript to change th
 
 **YOUR NOTES**
 ```
-
+I called on our variable did dot notation header.style.color = "red";
 ```
 
 ## Deliverable 3
